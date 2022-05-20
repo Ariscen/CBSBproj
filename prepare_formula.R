@@ -84,7 +84,8 @@ matplot.deSolve(out)
 # alpha = p1/dy the ratio of Y production rate constant due to X activation and Y degradation rate constant
 # beta = (p1+p2+dx)/dy the ratio of the overall consuming rate constant of X and Y degradation rate constant
 # gamma0 = dz/dy the ratio of Z degradation rate constant and Y degradation rate constant
-# gamma1 = dmax/dy the ratio of the max repressed rate of z due to Y inhibition and Y degradation rate constant
+# gamma1 = dmax/dy the ratio of the max repressed rate constant of z due to Y inhibition and Y degradation rate constant
+# dy can be seen as a constant divided for all parameters
 # alpha < beta due to p1,p2,dx,dy>0
 # x = X/Ky; y = Y/Ky; z = (p1*Z)/(Ky*p2)
 # sx = Sx/(Ky*dy)
